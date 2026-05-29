@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #f0fdf4;
+  --color-surface: #dcfce7;
+
+  --color-primary: #22c55e;
+  --color-secondary: #86efac;
+
+  --color-text: #14532d;
+  --color-muted: #4b5563;
+}
+
+:root {
+  --color-bg: #f0fdf4;
+  --color-surface: #dcfce7;
+
+  --color-primary: #22c55e;
+  --color-secondary: #86efac;
+
+  --color-text: #14532d;
+  --color-muted: #4b5563;
+}
+
+.transition-all {
+  transition: all 0.2s ease-in-out;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+*::webkit-scrollbar {
+  display: none;
+}
