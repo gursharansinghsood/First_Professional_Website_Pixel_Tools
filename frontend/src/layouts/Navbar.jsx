@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <div className='bg-surface border-b border-primary/20'>
       <div
-        className="max-w-5xl w-full mx-auto py-2 flex justify-between items-end"
+        className="max-w-6xl w-full mx-auto py-2 sm:px-10 px-5 flex justify-between items-end"
       >
         <Link to="/" className='cursor-pointer'><img src={NavbarLogo} alt="Website Logo" className="h-10" /></Link>
 

@@ -36,7 +36,7 @@ const BGRemover = () => {
   };
 
   return (
-    <div className='max-w-6xl w-full mx-auto overflow-x-hidden p-10 min-h-screen flex flex-col items-center justify-center'>
+    <div className='max-w-6xl w-full mx-auto overflow-x-hidden sm:p-10 p-5 min-h-screen flex flex-col items-center justify-center'>
       <p className='text-4xl font-bold text-center mb-2 text-text'>Remove Background</p>
       <p className='text-center text-muted mb-5'>Upload an image and let our AI remove the background for you</p>
 

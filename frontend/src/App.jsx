@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import BGRemover from './pages/BGRemover'
 import Tools from './pages/Tools'
 import { Toaster } from 'react-hot-toast'
+import About from './pages/About'
 const MainLayout = () => {
   return (
     <>
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/" element={ <MainLayout />}>
             <Route index element={<Home />} />
             <Route path="/tools" element={<Tools />} />
+            <Route path="/about" element={<About />} />
             <Route path="/bg-remover" element={<BGRemover />} />
           </Route>
         </Routes>  

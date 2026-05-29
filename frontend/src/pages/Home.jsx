@@ -38,7 +38,7 @@ const Home = () => {
 
 
   return (
-    <div className='max-w-6xl w-full mx-auto overflow-x-hidden p-10 min-h-screen'>
+    <div className='max-w-6xl w-full mx-auto overflow-x-hidden sm:p-10 p-5 min-h-screen'>
       <HeroSection />
 
       <p className='text-center text-2xl font-bold text-text mt-10'>Popular Tools</p>

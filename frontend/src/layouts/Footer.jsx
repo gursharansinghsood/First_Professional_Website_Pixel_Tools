@@ -24,7 +24,7 @@ const Footer = () => {
   return (
     <div className='bg-surface border-t border-primary/20'>
       <div
-        className="max-w-6xl w-full mx-auto  px-6 py-3 flex justify-between items-center"
+        className="max-w-6xl w-full mx-auto  sm:px-10 px-5 py-3 flex justify-between items-center gap-5"
       >
         <div>
           <p className='text-primary text-xl font-bold'>PixelTools</p>
